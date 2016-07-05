@@ -18,4 +18,4 @@
     (sparql-query full-query)))
 
 (defmethod cl-fuseki::update-now ((repos java-repository) (update string))
-  (sparql-query update))
+  (sparql-update update))
